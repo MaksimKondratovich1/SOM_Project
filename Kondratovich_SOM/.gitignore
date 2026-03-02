@@ -1,0 +1,63 @@
+# ===== Build output =====
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.map
+*.hex
+*.bin
+*.list
+*.size
+*.su
+*.lst
+
+# ===== CubeIDE / Eclipse files =====
+.metadata/
+.settings/
+.project
+.cproject
+*.launch
+*.log
+
+# ===== CubeMX generated backups =====
+*.bak
+*.tmp
+*.swp
+
+# ===== User-specific files =====
+*.user
+*.prefs
+
+# ===== VSCode (if used) =====
+.vscode/
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Python / scripts =====
+__pycache__/
+*.pyc
+
+# ===== Linker / intermediate =====
+*.i
+*.s
+*.ld~
+
+# ===== CubeMX cache =====
+.mxproject.local
+
+# ===== HAL generated (optional, see note) =====
+# If you want to regenerate code from CubeMX and NOT track it:
+# Core/
+# Drivers/
+
+# ===== Keil / IAR leftovers (if imported) =====
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+*.eww
+*.ewp
+*.ewd
