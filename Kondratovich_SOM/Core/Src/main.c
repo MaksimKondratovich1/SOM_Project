@@ -325,6 +325,7 @@ void StartTask02(void *argument)
 	for(iny i = 0; i < 5; i++){
 		HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
 		HAL_DELAY(300);
+
 	}
     osDelay(1000);
   }
