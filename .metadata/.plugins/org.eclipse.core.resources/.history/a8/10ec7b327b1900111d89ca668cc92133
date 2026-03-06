@@ -338,7 +338,6 @@ void StartTask02(void *argument)
 		HAL_DELAY(300);
 
 	}
-	osThreadSetPriority(myTask03Handle, 40);
     osDelay(300);
   }
   /* USER CODE END StartTask02 */
@@ -361,7 +360,6 @@ void StartTask03(void *argument)
 		HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pi, 0);
 		HAL_DELAY(250);
 	  }
-	osThreadSetPriority(MyTask02Handle, 8);
     osDelay(300);
   }
   /* USER CODE END StartTask03 */
